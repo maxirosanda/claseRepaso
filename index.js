@@ -292,7 +292,7 @@ const cleaningProducts = [
 // ============================================================================
 // BUSCAR UN PRODUCTO POR ID (find)
 // ============================================================================
-const findProduct = cleaningProducts.find(product => product.id === 19)
+const findProduct = cleaningProducts.find(item => item.id === 19)
 console.log(findProduct)
 // Devuelve el PRIMER producto cuyo id sea 19
 // Si no lo encuentra, devuelve undefined
